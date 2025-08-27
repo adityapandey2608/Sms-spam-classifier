@@ -1,3 +1,7 @@
+import nltk
+nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
+
 from flask import Flask, render_template, request
 import pickle
 import nltk
