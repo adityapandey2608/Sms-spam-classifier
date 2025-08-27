@@ -4,3 +4,4 @@ nltk
 wordcloud
 numpy
 pandas
+gunicorn
