@@ -8,6 +8,7 @@ os.makedirs(nltk_dir, exist_ok=True)
 
 # Download punkt and stopwords into that folder
 nltk.download('punkt', download_dir=nltk_dir)
+nltk.download('punkt_tab', download_dir='./nltk_data')
 nltk.download('stopwords', download_dir=nltk_dir)
 
 print("✅ punkt and stopwords downloaded into nltk_data/")
