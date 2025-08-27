@@ -1,3 +1,6 @@
+import nltk, os
+nltk.data.path.append(os.path.join(os.path.dirname(__file__), "nltk_data"))
+
 from flask import Flask, render_template, request
 import pickle
 import nltk
